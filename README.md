@@ -6,7 +6,7 @@ from pathlib import Path
 # Liste de départements (exemple)
 DEPARTEMENTS = ["75", "77", "78", "91", "92", "93", "94", "95"]
 
-BASE_URL = "https://static.data.gouv.fr/resources/donnees-climatologiques-de-base-quotidiennes"
+BASE_URL = "https://www.data.gouv.fr/datasets/donnees-climatologiques-de-base-quotidiennes"
 
 FILES = ["RR-T-Vent","autres-parametres"]
 
