@@ -3,7 +3,8 @@ import gzip
 import shutil
 from pathlib import Path
 
-# Liste de départements (exemple)
+# Liste de départements 
+```
 DEPARTEMENTS = [
     # Métropole
     "01","02","03","04","05","06","07","08","09","10",
@@ -15,12 +16,9 @@ DEPARTEMENTS = [
     "60","61","62","63","64","65","66","67","68","69",
     "70","71","72","73","74","75","76","77","78","79",
     "80","81","82","83","84","85","86","87","88","89",
-    "90","91","92","93","94","95",
-
-    # Outre-mer
-    "971","972","973","974","976"
+    "90","91","92","93","94","95","971","972","973","974","976"
 ]
-
+```
 
 BASE_URL = "https://www.data.gouv.fr/datasets/donnees-climatologiques-de-base-quotidiennes"
 
